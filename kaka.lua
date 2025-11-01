@@ -9,7 +9,7 @@ local Workspace = game:GetService("Workspace")
 local player = Players.LocalPlayer
 local placeId = 17308778014
 
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1434015184367915059/6EWi5iWl1c1rifZe2nqwqDBWQym-eiYYYg3nrhi_M0WVX0ightzpc0NxUyQKW7hlvF3a"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1431289412234514482/8QiRDfhvdRa0ePFgDFmJaGhycXI5uGGQu_QZJg7ISeWUzqeckyzvf8o_G6q5HETl7btC"
 
 -- ==================== TABLA COMPLETA DE BRAINROTS ====================
 local BrainrotData = {
